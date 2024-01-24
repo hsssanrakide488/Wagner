@@ -1,0 +1,85 @@
+.footer-footer {
+  background-color: var(--dl-color-scheme-black);
+}
+.footer-max-width {
+  height: 279px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-banner {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: -15%;
+  align-items: center;
+  padding-top: 56px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: 124px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: 70px;
+  background-size: cover;
+  background-image: url("public/group%2029-1200w.png");
+}
+.footer-text {
+  color: var(--dl-color-scheme-white);
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.footer-text1 {
+  color: var(--dl-color-scheme-white);
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.footer-btns-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+.footer-register-now {
+  color: var(--dl-color-scheme-darkblue);
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+  background-color: var(--dl-color-scheme-white);
+}
+.footer-register-now:hover {
+  color: var(--dl-color-scheme-white);
+  background-color: var(--dl-color-scheme-pink);
+}
+.footer-copyright {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.footer-text2 {
+  color: var(--dl-color-scheme-white80);
+  font-size: 14px;
+  text-transform: none;
+}
+
+@media(max-width: 767px) {
+  .footer-btns-container {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .footer-text1 {
+    text-align: center;
+  }
+  .footer-btns-container {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .footer-register-now {
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
